@@ -1,0 +1,22 @@
+body {
+  background-color: #E6F2FF; }
+
+section {
+  background-color: #CC66FF;
+  color: #333;
+  border-radius: 7px;
+  width: 780px;
+  margin: auto;
+  padding: 20px; }
+
+.thumb1 {
+  height: 120px;
+  width: 120px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  border-radius: 10%;
+  background-color: #333;
+  color: #E6F2FF; }
+
+/*# sourceMappingURL=styles.css.map */
