@@ -16,16 +16,18 @@ module.exports = function(grunt) {
     watch: {
         js: {
           files: ['./grunt/JS/**/*.js'],
-          tasks: ['concat'],
+          tasks: ['concat:js'],
         },
         css: {
           files: ['./grunt/CSS/**/*.css'],
-          tasks: ['concat'],
+          tasks: ['concat:css'],
           },
   }});
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.registerTask('default', ['concat','watch']);
 
 
 };
